@@ -1380,7 +1380,19 @@ public enum HeatpumpChannel {
     /**
      * Channel holding complete (localized) status message
      */
-    CHANNEL_HEATPUMP_STATUS(null, "menuStateFull", StringItem.class, null, false, null);
+    CHANNEL_HEATPUMP_STATUS(null, "menuStateFull", StringItem.class, null, false, null),
+
+    /**
+     * Energy consumption heating
+     */
+    CHANNEL_LSTG_AUFNAHME_HEIZUNG(1136, "energyConsumptionHeating", NumberItem.class, Units.KILOWATT_HOUR, false,
+            HeatpumpVisibility.HEIZUNG),
+    
+    /**
+     * Energy consumption domestic hot water
+     */
+    CHANNEL_LSTG_AUFNAHME_BRAUCHWASSER(1137, "energyConsumptionHotWater", NumberItem.class, Units.KILOWATT_HOUR, false,
+            HeatpumpVisibility.HEIZUNG);
 
     private @Nullable Integer channelId;
     private String command;
