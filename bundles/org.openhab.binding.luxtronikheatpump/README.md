@@ -290,6 +290,8 @@ The following channels are holding read only values:
 | channel266                              | Number                    | x        | Channel 266                                                    |
 | channel267                              | Number                    | x        | Channel 267                                                    |
 | powerConsumption                        | Number:Power              | x        | Power Consumption                                              |
+| energyConsumptionHeating                | Number:Energy             |          | Energy consumption heating                                     |
+| energyConsumptionHotWater               | Number:Energy             |          | Energy consumption domestic hot water                          |
 
 The usage of the numbered channels above is currently unknown. If you are able to directly match one of the values to any value reported by your heat pump, feel free to report back on the forum, so we are able to give the channel a proper name instead.
 
