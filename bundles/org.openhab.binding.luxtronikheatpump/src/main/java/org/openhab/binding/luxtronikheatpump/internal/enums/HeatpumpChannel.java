@@ -1387,7 +1387,7 @@ public enum HeatpumpChannel {
      */
     CHANNEL_LSTG_AUFNAHME_HEIZUNG(1136, "energyConsumptionHeating", NumberItem.class, Units.KILOWATT_HOUR, false,
             HeatpumpVisibility.HEIZUNG),
-    
+
     /**
      * Energy consumption domestic hot water
      */

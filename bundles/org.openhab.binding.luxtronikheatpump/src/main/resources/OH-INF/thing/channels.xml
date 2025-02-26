@@ -2203,12 +2203,12 @@
 		<category>Energy</category>
 		<state pattern="%.1f %unit%" readOnly="true"/>
 	</channel-type>
-	
+
 	<channel-type id="energyConsumptionHotWater">
 		<item-type>Number:Energy</item-type>
 		<label>Energy Consumption Domestic Hot Water</label>
 		<category>Energy</category>
 		<state pattern="%.1f %unit%" readOnly="true"/>
 	</channel-type>
-	
+
 </thing:thing-descriptions>
