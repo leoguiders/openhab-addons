@@ -2197,4 +2197,18 @@
 		<state pattern="%.1f %unit%" step="0.5" min="0" max="12"></state>
 	</channel-type>
 
+	<channel-type id="energyConsumptionHeating">
+		<item-type>Number:Energy</item-type>
+		<label>Energy Consumption Heating</label>
+		<category>Energy</category>
+		<state pattern="%.1f %unit%" readOnly="true"/>
+	</channel-type>
+	
+	<channel-type id="energyConsumptionHotWater">
+		<item-type>Number:Energy</item-type>
+		<label>Energy Consumption Domestic Hot Water</label>
+		<category>Energy</category>
+		<state pattern="%.1f %unit%" readOnly="true"/>
+	</channel-type>
+	
 </thing:thing-descriptions>
